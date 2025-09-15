@@ -1,36 +1,22 @@
-import java.util.*;
-public class randomex {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        Random R=new Random();
-        int number=R.nextInt(100)+1;
-        int guess=0;
-        int attempts=0, maxAttempts=5;
-        System.out.println("enter a number between 1 and 100:");
-          while (attempts < maxAttempts) {
-            guess = sc.nextInt();
-            attempts++;
-            if (guess == number) {
-                System.out.println("Correct! You guessed it in " + attempts + " attempts.");
-                break;
-            } else if (guess > number) {
-                System.out.println("Too high!");
-            } else {
-                System.out.println("Too low!");
-            }
-        }
-        if (attempts == maxAttempts) {
-            System.out.println("Out of attempts! The number was: " + number);
-        }
-        while(guess!=number){
-            guess = sc.nextInt();
-            if (guess==number)
-            System.out.println("That's correct guess");
-            else if (guess>number)
-            System.out.println("It's too high");
-            else
-            System.out.println("It's too low");
-        }
-        sc.close();
-    }
-}
+**Title:** Number Game in Java
+
+Description (for GitHub repository):
+A simple Java-based Number Guessing Game where the player tries to guess a randomly generated number within a given range. The program provides hints (too high / too low) until the correct number is guessed. This project demonstrates the use of Java fundamentals such as conditionals, loops, random number generation, and user input handling.
+
+**Features:**
+
+Random number generation
+
+Interactive console-based gameplay
+
+Feedback for each guess (higher/lower)
+
+Counts attempts taken by the player
+
+Beginner-friendly Java project
+
+**Technologies Used:**
+
+Java
+
+Object-Oriented Programming concepts
