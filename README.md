@@ -1,6 +1,6 @@
 **Title:** Number Game in Java
 
-Description (for GitHub repository):
+**Description:**
 A simple Java-based Number Guessing Game where the player tries to guess a randomly generated number within a given range. The program provides hints (too high / too low) until the correct number is guessed. This project demonstrates the use of Java fundamentals such as conditionals, loops, random number generation, and user input handling.
 
 **Features:**
